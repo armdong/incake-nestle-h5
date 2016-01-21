@@ -1,0 +1,247 @@
+﻿html {
+	-webkit-tap-highlight-color: transparent
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑"
+}
+input,
+button,
+select,
+textarea {
+	outline: none
+}
+dl,
+dt,
+dd {
+	margin: 0
+}
+.clearfix {
+	zoom: 1
+}
+.hide {
+	display: none
+}
+a {
+	text-decoration: none
+}
+#mast-share,
+#code-share {
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.90);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999
+}
+@font-face {
+	font-family: 'incake';
+	src: url("../fonts/incake.eot");
+	src: url("../fonts/incake.eot?#iefix") format("embedded-opentype"), url("../fonts/incake.woff2") format("woff2"), url("../fonts/incake.woff") format("woff"), url("../fonts/incake.ttf") format("truetype"), url("../fonts/incake.svg#incake") format("svg");
+	font-weight: normal;
+	font-style: normal
+}
+a {
+	color: #fff
+}
+img {
+	width: 100%;
+	display: block
+}
+.container {
+	width: 100%
+}
+.container .bg {
+	position: fixed;
+	z-index: -1
+}
+.container .cont-img {
+	position: relative;
+	width: 100%
+}
+.container .cont-img .img1 {
+	width: 35%
+}
+.container .cont-img .img2 {
+	width: 64%;
+	margin: -.7rem 0 0 1.4rem
+}
+.container .cont-img .img3 {
+	width: 92%;
+	margin: -.3rem auto 0;
+	z-index: 3;
+	position: relative
+}
+.container .cont-img .userInfo {
+	position: absolute;
+	top: .9rem;
+	right: 1.5rem;
+	width: 17.5%;
+	text-align: center;
+	color: #505050
+}
+.container .cont-img .userInfo .userImg {
+	border: 2px solid #fae2e2;
+	border-radius: 50%
+}
+.container .cont-img .uImg {
+	position: absolute;
+	width: 14%;
+	border-radius: 50%
+}
+.container .cont-img .uImg1 {
+	left: 15.2%;
+	top: 63%
+}
+.container .cont-img .uImg2 {
+	left: 48%;
+	top: 57%
+}
+.container .cont-img .uImg3 {
+	left: 67%;
+	top: 66%
+}
+.container .cont-btn {
+	width: 60%;
+	margin: 0 auto
+}
+.container .cont-btn .btn {
+	display: block;
+	width: 47%;
+	float: left;
+	margin-top: .55rem;
+	padding: .5rem 0;
+	background-color: #c8c8c9;
+	border-bottom: 3px solid #9e9e9f;
+	border-radius: 4px;
+	font-size: 14px;
+	font-family: "incake";
+	text-align: center
+}
+.container .cont-btn .btn2 {
+	float: right
+}
+.container .cont-btn .btn3 {
+	display: inline-block;
+	width: 100%;
+	float: none
+}
+.container .cont-btn .cur {
+	background-color: #ff4665;
+	border-color: #ff282f
+}
+.container .cont-text {
+	width: 88%;
+	margin: 2rem auto;
+	color: #ac1443
+}
+.container .cont-text dt {
+	margin-bottom: .4rem;
+	font-size: 14px;
+	text-decoration: underline
+}
+.container .cont-text dt img {
+	display: inline;
+	width: 4.3%;
+	margin-right: .2rem
+}
+.container .cont-text dd {
+	font-size: 12px;
+	margin-left: .3rem
+}
+#mast-share {
+	background: rgba(0, 0, 0, 0.9);
+	padding-top: 3.5rem
+}
+#mast-share p {
+	width: 80%;
+	margin: 0 auto;
+	color: #fff;
+	line-height: 3rem;
+	font-size: .9rem
+}
+#mast-share p img {
+	width: 12%;
+	display: inline-block;
+	margin: -.3rem .4rem 0 0;
+	vertical-align: middle
+}
+#mast-share .arrow {
+	position: absolute;
+	top: 1rem;
+	right: 3rem;
+	width: 18%
+}
+#mast-share .close {
+	position: absolute;
+	top: .5rem;
+	left: .5rem;
+	line-height: 2rem;
+	font-size: 3rem;
+	font-style: normal;
+	color: #fff
+}
+#code-share {
+	background: rgba(0, 0, 0, 0.9);
+	padding-top: 3.5rem;
+	font-size: 18px;
+	color: #fff
+}
+#code-share div {
+	height: 45%
+}
+#code-share div:nth-of-type(2n-1) {
+	float: left;
+	width: 10%;
+	margin-left: 10%
+}
+#code-share div:nth-of-type(2n) {
+	float: right;
+	width: 60%;
+	margin-right: 20%
+}
+#code-share p {
+	text-align: center;
+	margin-top: 10px
+}
+#code-share .focus {
+	display: block;
+	line-height: 2rem;
+	font-size: .6rem;
+	background-color: #07be04;
+	text-align: center;
+	border-radius: 5px;
+	margin: 5px 0
+}
+#code-share .close {
+	position: absolute;
+	top: .5rem;
+	left: .5rem;
+	line-height: 2rem;
+	font-size: 3rem;
+	font-style: normal
+}
+.mod-orient-layer {
+	display: none;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+	background: #000;
+	z-index: 9999
+}
+.mol_content {
+	position: absolute;
+	width: 100%;
+	top: 45%;
+	text-align: center
+}
+.mol_desc {
+	margin-top: 20px;
+	font-size: 15px;
+	font-family: "incake";
+	color: #fff
+}
